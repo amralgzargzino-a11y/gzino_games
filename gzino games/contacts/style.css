@@ -1,0 +1,101 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: 'Cairo', Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    direction: rtl;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+/* Contact Buttons */
+.contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.contact-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-buttons .btn img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Facebook Button */
+.contact-buttons .facebook {
+    background: #3b5998;
+}
+
+.contact-buttons .facebook:hover {
+    background: #2d4373;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Instagram Button */
+.contact-buttons .instagram {
+    background: #e4405f;
+}
+
+.contact-buttons .instagram:hover {
+    background: #c13584;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Gmail Button */
+.contact-buttons .gmail {
+    background: #d44638;
+}
+
+.contact-buttons .gmail:hover {
+    background: #b23121;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* WhatsApp Button */
+.contact-buttons .whatsapp {
+    background: #25d366;
+}
+
+.contact-buttons .whatsapp:hover {
+    background: #1ebe57;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
